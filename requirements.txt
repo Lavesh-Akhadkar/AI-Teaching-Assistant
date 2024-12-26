@@ -6,4 +6,4 @@ python-dotenv==1.0.1
 python_pptx==1.0.2
 pytubefix==8.8.2
 streamlit==1.41.1
-git+https://github.com/Lavesh-Akhadkar/swarmauri-sdk.git@MaxSystemContextConversation-Fix#egg=swarmauri
+git+https://github.com/Lavesh-Akhadkar/fix-pip-lib#egg=swarmauri
