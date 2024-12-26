@@ -49,10 +49,10 @@ st.title("AI Teaching Assistant")
 uploaded_files = st.file_uploader(
     "Upload a PowerPoint or PDF file", accept_multiple_files=True, type=["pptx", "pdf"]
 )
+uploaded_to_rag = st.button("Process Files")
 video_url = st.text_input("Enter YouTube video URL")
 process_video = st.button("Process Video")
 
-uploaded_to_rag = st.button("Upload to store")
 
 if uploaded_files is not None and uploaded_to_rag:
     for uploaded_file in uploaded_files:
