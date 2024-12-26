@@ -1,0 +1,20 @@
+from pytubefix import YouTube
+import os
+from transcribe import tts, get_transcript
+
+
+def download_audio(video_url):
+    yt = YouTube(video_url)
+
+    try:
+        os.mkdir("audio")
+    except:
+        pass
+
+    os.system("rm -rf audio/*")
+    yt.streams.filter(only_audio=True).first().download("audio", "audio.mp3")
+
+def video_to_transcript(video_url):
+    download_audio(video_url)
+    tts()
+    return get_transcript()

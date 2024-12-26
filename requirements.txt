@@ -1,0 +1,9 @@
+matplotlib==3.10.0
+networkx==3.4.2
+openai_whisper==20240930
+PyPDF2==3.0.1
+python-dotenv==1.0.1
+python_pptx==1.0.2
+pytubefix==8.8.2
+streamlit==1.41.1
+git+https://github.com/Lavesh-Akhadkar/swarmauri-sdk.git@MaxSystemContextConversation-Fix#egg=swarmauri
