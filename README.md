@@ -1,6 +1,8 @@
-# AI Teaching Assistant
+# [AI Teaching Assistant](https://teacherai.streamlit.app)
 
 An AI-powered teaching assistant built with Streamlit to enhance teaching and learning experiences. This app allows users to interact with documents, videos, and conversational AI to extract and explore knowledge dynamically.
+
+## Streamlit Deployment: https://teacherai.streamlit.app
 
 ## Features
 
