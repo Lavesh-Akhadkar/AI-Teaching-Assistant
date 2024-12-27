@@ -1,10 +1,10 @@
 from pytubefix import YouTube
 import os
-from transcribe import tts, get_transcript
+from transcribe import transcribe_audio
 
 
 def download_audio(video_url):
-    yt = YouTube(video_url, use_po_token=True)
+    yt = YouTube(video_url)
 
     try:
         os.mkdir("audio")
@@ -16,5 +16,4 @@ def download_audio(video_url):
 
 def video_to_transcript(video_url):
     download_audio(video_url)
-    tts()
-    return get_transcript()
+    return transcribe_audio()
