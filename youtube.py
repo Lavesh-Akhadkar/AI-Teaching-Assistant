@@ -4,7 +4,7 @@ from transcribe import transcribe_audio
 
 
 def download_audio(video_url):
-    yt = YouTube(video_url)
+    yt = YouTube(video_url, use_po_token=True)
 
     try:
         os.mkdir("audio")
