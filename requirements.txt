@@ -8,3 +8,4 @@ pytubefix==8.8.2
 streamlit==1.41.1
 git+https://github.com/Lavesh-Akhadkar/fix-pip-lib#egg=swarmauri
 scikit-learn
+ffmpeg-python
